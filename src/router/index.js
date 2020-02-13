@@ -6,6 +6,7 @@ import MainTable from '@/pages/index/main/MainTable'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
